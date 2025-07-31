@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    string sentence;
+    cout << "Enter a sentence: ";
+    getline(cin, sentence);
+
+    reverse(sentence.begin(), sentence.end());
+
+    cout << "Reversed sentence: " << sentence << endl;
+
+    return 0;
+}
